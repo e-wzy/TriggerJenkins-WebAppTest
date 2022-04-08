@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="DARC-Demo" />
+        <module name="07-08-TestNG-Listener" />
+        <module name="WorkBench" />
+        <module name="TestDARC-WebApp" />
+        <module name="TestDARC" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Test-DARC" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

@@ -1,0 +1,10 @@
+geckodriver.exe: 
+------------------
+version is 0.30.0
+
+to run in command line:
+------------------------
+1) in command line, go to test folder
+2) run command: 
+   mvn clean test ( re-build )
+   or mvn test    ( use last build )

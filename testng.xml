@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test Suite">
+    <!-- If listeners are implemented through the testng.xml file, then they are applied to all the classes.-->
+    <listeners>
+        <listener class-name="Listener"></listener>
+    </listeners>
+
+    <!--<test verbose="2" preserve-order="true" name="Test Login and Logout ">
+        <classes>
+            <class name="TestLoginLogout" >
+                <methods>
+                    <include name="Test_1"></include>
+                    <include name="Test_2"></include>
+                </methods>
+            </class>
+            &lt;!&ndash; <class name="TestToAdd"></class> &ndash;&gt;
+        </classes>
+    </test>
+
+    <test verbose="2" preserve-order="true" name="Test DAG Files ">
+        <classes>
+            <class name="TestDAGFiles" >
+                <methods>
+                    <exclude name="Test_1"></exclude>
+                    <include name="Test_2"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test verbose="2" preserve-order="true" name="Test Workflow">
+        <classes>
+            <class name="TestWorkFlow" >
+                <methods>
+                    <include name="Test1"/>
+                </methods>
+            </class>
+        </classes>
+    </test>-->
+   <!-- <test verbose="2" preserve-order="true" name="Test MLFlow">
+        <classes>
+            <class name="TestMLFlow" >
+                <methods>
+                    <exclude name="demo_test1234"/>
+                    <include name="Test_1"/>
+                    <exclude name="Test_2"/>
+                    <include name="Test_3"/>
+                    <include name="Test_4"/>
+                </methods>
+            </class>
+        </classes>
+    </test>-->
+    <test verbose="2" preserve-order="true" name="Test AirFlow">
+            <classes>
+                <class name="TestAirFlow" >
+                    <methods>
+                        <include name="Test_1"/>
+                        <include name="Test_2"/>
+                    </methods>
+                </class>
+            </classes>
+        </test>
+
+    <!--<test verbose="2" preserve-order="true" name="Test to Add">
+        <classes>
+            <class name="TestToAdd" >
+                <methods>
+                    <include name="Test1"/>
+                    <include name="Test2"/>
+                </methods>
+            </class>
+        </classes>
+    </test>-->
+
+</suite>
